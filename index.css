@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&family=Source+Sans+Pro:wght@300&display=swap');
+body{
+    margin: 0;
+    font-family: 'RocknRoll One', sans-serif;;
+}
+.container{
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.top-wrapper{
+    padding: 200px 0 110px 0;
+    background-image: url("pexels-pixabay-259200.jpg");
+    background-size: cover;
+    color:azure;
+    text-align: center;
+    display: flex;
+
+}
+.top-wrapper h1{
+    font-size: 55px;
+    letter-spacing: 5px;
+}
+header{
+    height: 65px;
+    width: 100%;
+    background-color: rgb(255, 149, 202);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.header-left {
+  text-align: center;
+}
+footer{
+    padding-top: 6px;
+    padding-bottom:7px;
+    background-color:indianred;
+}
+.copy {
+    text-align: center;
+}
+
